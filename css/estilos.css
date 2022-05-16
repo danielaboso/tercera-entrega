@@ -1,0 +1,38 @@
+.bg-green{
+    background-color: rgb(81, 177, 129);
+}
+.bg-orange{
+    background-color :#db5534b0;
+}
+.pie {
+    background-color: #389d89;
+    padding: 5% 0;
+}
+.lista {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+.contenedor{
+    padding: 10px;
+    display: inline-block;
+}
+.nav-item:hover{
+    background-color: #389d89;
+}
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 15px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover {
+    border:2px solid #389d89 ;
+
+}
+.pie img:hover{
+        transform: translate(5px);
+        transition: all 0.5s;
+}
